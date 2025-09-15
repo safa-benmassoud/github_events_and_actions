@@ -18,4 +18,4 @@ def test_calc_multiply():
 def test_coucou():
   # Fonction test si la résultat renvoie 'hello'
     output='hello'
-    assert output == 'hello
+    assert output == 'hello'
