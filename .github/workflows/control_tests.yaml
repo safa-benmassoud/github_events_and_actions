@@ -17,6 +17,11 @@ jobs:
         run: |
           pip install pytest
           pip install flake8
+          pip install black
+
+      - name: Run Black (autoformat)
+        run: |
+          black .
 
       - name: Run tests
         run: |
